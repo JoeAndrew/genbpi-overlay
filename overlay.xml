@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories version="1.0">
+<repo priority="50" status="unofficial">
+    <name>genbpi-overlay</name>
+    <description>Extra Packages for BananaPi Boards</description>
+    <homepage>https://github.com/JoeAndrew/genbpi-overlay</homepage>
+    <owner>
+	<email>joe...@gmail.com</email>
+	<name>Joe, Inc</name>
+    </owner>
+    <source type="git">git://github.com/JoeAndrew/genbpi-overlay.git</source>
+    <feed>https://github.com/JoeAndrew/genbpi-overlay/commits/master.atom</feed>
+</repo>
+</repositories>
