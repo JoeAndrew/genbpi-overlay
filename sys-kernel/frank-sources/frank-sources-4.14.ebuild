@@ -15,7 +15,7 @@ detect_arch
 
 inherit git-r3 eapi7-ver
 EGIT_REPO_URI="https://github.com/frank-w/BPI-R2-4.14.git -> BPI-R2-4.14.git"
-#EGIT_BRANCH="BPI-R2-$(ver_cut 1-2).y"
+EGIT_BRANCH="${PV}-main"
 EGIT_CHECKOUT_DIR="${WORKDIR}/linux-${PV}-frank"
 EGIT_CLONE_TYPE="shallow"
 
